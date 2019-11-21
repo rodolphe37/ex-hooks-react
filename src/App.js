@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+//import ClassCounter from './components/useState-ex/ClassCounter';
+//import HookCounter from './components/useState-ex/HookCounter';
+//import HookCounterTwo from './components/useState-ex/HookCounterTwo';
+//import HookCounterThree from './components/useState-ex/HookCounterThree';
+//import HookCounterFour from './components/useState-ex/HookCounterFour';
+//import ClassCounterOne from './components/useEffect-ex/ClassCounterOne';
+//import HookCounterOne from './components/useEffect-ex/HookCounterOne';
+//import ClassMouse from './components/useEffect-ex/ClassMouse';
+import HookMouse from './components/useEffect-ex/HookMouse';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<ClassCounter />*/}
+      {/*<HookCounter />*/}
+      {/*<HookCounterTwo />*/}
+      {/*<HookCounterThree />*/}
+      {/*<HookCounterFour />*/}
+      {/*<HookCounterOne />*/}
+      {/*<ClassCounterOne />*/}
+      {/*<ClassMouse />*/}
+      <HookMouse />
     </div>
   );
 }
