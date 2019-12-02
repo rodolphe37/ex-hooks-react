@@ -18,10 +18,11 @@ function HookMouse() {
            console.log("Component unmounting code")
            window.removeEventListener("mousemove", logMousePosition) 
         }
-    }, [])
+    }, []);
+
     return (
         <div>
-            Hooks X - {x} Y - {y}
+            Hooks X - {x}  Y - {y}
         </div>
     )
 };
